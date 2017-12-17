@@ -8821,8 +8821,8 @@ a.text-dark:focus, a.text-dark:hover {
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
-  max-height: 510px;
-  max-width: 680px;
+  max-height: 540px;
+  max-width: 960px;
 }
 
 #what-we-do-text {

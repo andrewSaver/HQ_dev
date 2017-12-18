@@ -8850,8 +8850,20 @@ a.text-dark:focus, a.text-dark:hover {
   padding: 0 0 1.8rem 0;
 }
 
+.footer_dv h4 {
+  font-family: 'Sancreek',
+  cursive;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-img {
+    display: none;
+    }
+  }
 
 
 
 
 
+
+  

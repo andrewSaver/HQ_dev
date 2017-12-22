@@ -8860,6 +8860,10 @@ a.text-dark:focus, a.text-dark:hover {
   border-bottom: 2px solid black;
 }
 
+.footer-navs {
+  margin-bottom: 2em;
+}
+
 .footer-navs ul {
   list-style: none;
 }
@@ -8870,7 +8874,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .footer-contact {
   color: rgb(107, 104, 104);
-  padding: 2.5rem;
+  margin-bottom: 2em;
 }
 
 .contact-button {
@@ -8879,6 +8883,16 @@ a.text-dark:focus, a.text-dark:hover {
 
 .phone-text {
   color: rgb(107, 104, 104);
+}
+
+.contact-us-text {
+  padding: .5rem 1rem;
+  margin: .5rem 0;
+  border-bottom: 2px solid black;
+}
+
+.address-text {
+  margin-top: 2em;
 }
 
 .follow-us-footer {
@@ -8890,15 +8904,19 @@ a.text-dark:focus, a.text-dark:hover {
 .footer-social a .fa {
   font-size: 1.6em;
   border-radius: 50%;
-  border: solid rgb(107, 104, 104);
-  color: rgb(107, 104, 104);
+  border: solid rgb(46, 44, 44);
+  color: rgb(46, 44, 44);
   line-height: 2em;
   width: 2em;
   height: 2em;
   text-align: center;
   display: inline-block;
   transition: 0.5s;
-  margin: 0.5em;
+  margin: 1.5em 1em;
+}
+
+.footer-nav-li {
+  padding: 0.5em;
 }
 
 

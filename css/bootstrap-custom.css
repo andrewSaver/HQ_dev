@@ -8895,6 +8895,10 @@ a.text-dark:focus, a.text-dark:hover {
   margin-top: 2em;
 }
 
+.address-name {
+  padding: 1em;
+}
+
 .follow-us-footer {
   padding: .5rem 1rem;
   margin: .5rem 0;

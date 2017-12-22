@@ -8850,16 +8850,64 @@ a.text-dark:focus, a.text-dark:hover {
   padding: 0 0 1.8rem 0;
 }
 
-.footer_dv h4 {
-  font-family: 'Sancreek',
-  cursive;
+.footer-info {
+  margin-bottom: 3rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  .footer-img {
-    display: none;
-    }
+.navigate-footer {
+  padding: .5rem 1rem;
+  margin: .5rem 0;
+  border-bottom: 2px solid black;
+}
+
+.footer-navs ul {
+  list-style: none;
+}
+
+.footer-navs ul li a {
+  color: rgb(107, 104, 104);
+}
+
+.footer-contact {
+  color: rgb(107, 104, 104);
+  padding: 2.5rem;
+}
+
+.contact-button {
+  margin-top: 2rem;
+}
+
+.phone-text {
+  color: rgb(107, 104, 104);
+}
+
+.follow-us-footer {
+  padding: .5rem 1rem;
+  margin: .5rem 0;
+  border-bottom: 2px solid black;
+}
+
+.footer-social a .fa {
+  font-size: 1.6em;
+  border-radius: 50%;
+  border: solid rgb(107, 104, 104);
+  color: rgb(107, 104, 104);
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s;
+  margin: 0.5em;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  ul .nav-two{
+    margin-top:
   }
+}
 
 
 

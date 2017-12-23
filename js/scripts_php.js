@@ -1,3 +1,3 @@
 document.getElementById("header").onclick = function () {
-    window.location = "/index.html";
+    window.location = "../index.html";
 }

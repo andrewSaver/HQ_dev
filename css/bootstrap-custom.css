@@ -8817,6 +8817,17 @@ a.text-dark:focus, a.text-dark:hover {
   color: rgb(82, 78, 78);
 }
 
+.lead {
+  font-family: 'Noto Sans',
+    sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    font-weight: 200;
+    color: rgb(34, 33, 33);
+    padding: 1.5em;
+  }
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -8940,15 +8951,16 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .process_text {
-  padding: 6rem;
+  padding: 1.5rem;
 }
 
 .process_text h4 {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.4rem;
+  line-height: 1.5em;
   font-weight: 200;
   color: rgb(34, 33, 33);
-  padding-bottom: 3em;
+  padding: 1.5em;
 }
 
 .process_text p{

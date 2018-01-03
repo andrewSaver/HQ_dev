@@ -8814,7 +8814,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 200;
-  color: rgb(138, 133, 133);
+  color: rgb(82, 78, 78);
 }
 
 .carousel-item.active,
@@ -8851,6 +8851,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .footer-info {
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
@@ -8914,23 +8915,58 @@ a.text-dark:focus, a.text-dark:hover {
   display: inline-block;
   transition: 0.5s;
   margin: 1.5em 1em;
+  padding-right: .04em;
 }
 
 .footer-nav-li {
   padding: 0.5em;
 }
 
-
-
-@media screen and (max-width: 768px) {
-  ul .nav-two{
-    margin-top:
-  }
-}
-
 .submit-button {
   margin-bottom: 6em;
 }
+
+.process_banner {
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/flat-top-fire-dark-1080x540.jpg");
+  background-size: cover;
+}
+
+.process_banner h1 {
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  
+  padding-top: 4rem;
+  padding-bottom: 14rem;
+}
+
+.process_text {
+  padding: 6rem;
+}
+
+.process_text h4 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: rgb(82, 78, 78);
+}
+
+.process_text p{
+  padding: 2rem 4rem 0 4rem;
+  font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 414px) {
+  .process_text {
+    padding: 3rem 1rem;
+  }
+  .process_text p {
+    padding: 1rem 1rem;
+  }
+}
+
+
 
 
 

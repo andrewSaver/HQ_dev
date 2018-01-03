@@ -8915,7 +8915,6 @@ a.text-dark:focus, a.text-dark:hover {
   display: inline-block;
   transition: 0.5s;
   margin: 1.5em 1em;
-  padding-right: .04em;
 }
 
 .footer-nav-li {
@@ -8927,16 +8926,17 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .process_banner {
-  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/flat-top-fire-dark-1080x540.jpg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/barn-reception-dark-1080x540.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .process_banner h1 {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
-  
-  padding-top: 4rem;
-  padding-bottom: 14rem;
+  font-size: 3rem;
+  padding: 9rem 0 9rem 0;
 }
 
 .process_text {
@@ -8947,13 +8947,16 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 200;
-  color: rgb(82, 78, 78);
+  color: rgb(34, 33, 33);
+  padding-bottom: 3em;
 }
 
 .process_text p{
-  padding: 2rem 4rem 0 4rem;
+  padding: 3em 4em;
   font-size: 1.2rem;
 }
+
+
 
 
 

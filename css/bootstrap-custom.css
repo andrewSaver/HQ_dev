@@ -8969,6 +8969,29 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 1.2rem;
 }
 
+.menus_banner {
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/greens-potatoes-flat-top-dark-1080x540.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menus_banner h1 {
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 3rem;
+  padding: 9rem 0 9rem 0;
+}
+
+.menus_text {
+  padding: 1.5rem;
+}
+
+.menus_text p {
+  padding: 3em 4em;
+  font-size: 1.2rem;
+}
+
 
 
 
@@ -8978,6 +9001,13 @@ a.text-dark:focus, a.text-dark:hover {
     padding: 3rem 1rem;
   }
   .process_text p {
+    padding: 1rem 1rem;
+  }
+  .menus_text {
+    padding: 3rem 1rem;
+  }
+
+  .menus_text p {
     padding: 1rem 1rem;
   }
 }

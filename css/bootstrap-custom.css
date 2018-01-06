@@ -8921,8 +8921,8 @@ a.text-dark:focus, a.text-dark:hover {
   border: solid rgb(46, 44, 44);
   color: rgb(46, 44, 44);
   line-height: 2em;
-  width: 2em;
-  height: 2em;
+  width: 2.1em;
+  height: 2.1em;
   text-align: center;
   display: inline-block;
   transition: 0.5s;

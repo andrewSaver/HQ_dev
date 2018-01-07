@@ -8990,7 +8990,13 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 1.2rem;
 }
 
+.menu_button {
+  margin-top: 4rem;
+}
 
+.card-body {
+  font-size: 0.7rem;
+}
 
 
 

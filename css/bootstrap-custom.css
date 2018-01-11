@@ -8894,7 +8894,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .contact-button {
-  margin-top: 2rem;
+  margin: 2em 0 5em 0;
 }
 
 .phone-text {
@@ -8972,7 +8972,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .process_text p{
-  padding: 3em 4em;
+  padding: 1.2em 5em;
   font-size: 1.2rem;
 }
 
@@ -8981,6 +8981,7 @@ a.text-dark:focus, a.text-dark:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 4rem;
 }
 
 .menus_banner h1 {
@@ -8993,16 +8994,31 @@ a.text-dark:focus, a.text-dark:hover {
 
 
 .menus_text p {
-  padding: 3em 4em;
+  padding: 1.2em 4em;
   font-size: 1.2rem;
 }
 
 .menu_button {
+  margin: 4rem;
+}
+
+.menu_gallery {
   margin-top: 4rem;
 }
 
-.card-body {
-  font-size: 0.7rem;
+.smoker_banner {
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/smoker-darkened-960x720.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.smoker_banner h1 {
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 3rem;
+  padding: 9rem 0 9rem 0;
 }
 
 

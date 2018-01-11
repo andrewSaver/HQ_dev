@@ -8846,8 +8846,12 @@ a.text-dark:focus, a.text-dark:hover {
   padding: 1.8rem 0 0 0;
 }
 
-.morel-img {
+.chalkboard-img {
   padding: 1.8rem 0;
+}
+
+.chalkboard-caption {
+  margin-top: 0.2em;
 }
 
 .infiernillo-img {
@@ -8886,7 +8890,6 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .footer-contact {
-  color: rgb(107, 104, 104);
   margin-bottom: 2em;
 }
 
@@ -8902,6 +8905,10 @@ a.text-dark:focus, a.text-dark:hover {
   padding: .5rem 1rem;
   margin: .5rem 0;
   border-bottom: 2px solid black;
+}
+
+.phone-text {
+  color: rgb(30, 31, 32)
 }
 
 .address-text {

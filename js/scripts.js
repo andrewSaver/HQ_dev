@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('.HQ_carousel').slick({
         dots: true,
         infinite: true,
-        speed: 1200,
+        speed: 1100,
         fade: true,
         arrows: true,
         autoplay: true,

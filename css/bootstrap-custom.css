@@ -5786,10 +5786,10 @@ button.close {
       -webkit-box-align: center;
           align-items: center;
   width: 100%;
-  transition: -webkit-transform 0.7s ease;
-  -webkit-transition: -webkit-transform 0.7s ease;
-  transition: transform 0.7s ease;
-  transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+  transition: -webkit-transform 0s ease;
+  -webkit-transition: -webkit-transform 0s ease;
+  transition: transform 0s ease;
+  transition: transform 0s ease, -webkit-transform 0s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -8827,15 +8827,8 @@ a.text-dark:focus, a.text-dark:hover {
     color: rgb(34, 33, 33);
     padding: 1.5em;
   }
-}
 
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
-  display: block;
-  max-height: 540px;
-  max-width: 960px;
-}
+  
 
 #what-we-do-text {
   margin-top: 75px;
@@ -8932,6 +8925,7 @@ a.text-dark:focus, a.text-dark:hover {
   height: 2.1em;
   text-align: center;
   display: inline-block;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   margin: 1.5em 1em;
 }

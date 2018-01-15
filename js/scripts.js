@@ -1,5 +1,5 @@
-document.getElementById("header").onclick = function () {
-    window.location = "index.html";
+document.getElementById('header').onclick = function () {
+    window.location = 'index.html';
 }
 
 $(document).ready(function () {
@@ -15,5 +15,23 @@ $(document).ready(function () {
     });
 });
 
+$('#datepicker').datepicker({
+    uiLibrary: 'bootstrap4'
+});
 
+(function () {
+    'use strict';
+
+    window.addEventListener('load', function () {
+        var form = document.getElementById('needs-validation');
+        form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+        }, false);
+    }, false);
+})();
+    
 

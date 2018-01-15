@@ -9038,6 +9038,13 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 
+@media screen and (max-width: 615px) {
+  .slick-prev:before,
+  .slick-next:before {
+    visibility: hidden;
+  }
+}
+
 
 
 

@@ -9036,6 +9036,10 @@ a.text-dark:focus, a.text-dark:hover {
   .menus_text p {
     padding: 1rem 1rem;
   }
+
+  .lightbox {
+    pointer-events: none;
+  }
 }
 
 @media screen and (max-width: 615px) {

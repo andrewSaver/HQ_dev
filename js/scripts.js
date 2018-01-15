@@ -10,8 +10,15 @@ $(document).ready(function () {
         fade: true,
         arrows: true,
         autoplay: true,
-        autoplaySpeed: 3000
-       
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    autoplay: false
+                }
+            }
+        ]
     });
 });
 

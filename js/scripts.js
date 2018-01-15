@@ -15,5 +15,13 @@ $(document).ready(function () {
     });
 });
 
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
 
+$('.lightbox').click(function (e) {
+    if (!isMobile) {
+        e.preventDefault();
+        dataslide = $(this).attr('data-toggle');
+        goToByScroll(dataslide);
+    }
+});
 

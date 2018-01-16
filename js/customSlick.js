@@ -2,22 +2,20 @@
 
 $(document).ready(function () {
     $('.HQ_carousel').slick({
-        dots: true,
-        infinite: true,
-        speed: 1100,
-        fade: true,
-        arrows: true,
+        adaptiveHeight: true,
         autoplay: true,
-        autoplaySpeed: 3000,
-        slidesToShow: 1,
+        arrows: true,
+        dots: true,
+        fade: true,
+        speed: 1000,
+        cssEase: 'linear',
         responsive: [
             {
                 breakpoint: 480,
                 settings: {
-                    autoplay: false,
-                    arrows: false
+                    arrows: false,
+                    
                 }
-            }
-        ]
+            }]
     });
 });

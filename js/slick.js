@@ -9,6 +9,7 @@ $(document).ready(function () {
         arrows: true,
         autoplay: true,
         autoplaySpeed: 3000,
+        slidesToShow: 1,
         responsive: [
             {
                 breakpoint: 480,

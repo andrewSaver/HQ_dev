@@ -287,8 +287,11 @@
     </div>
 
     <div class="text-center index_top_contact_button">
-        <a href="contact.html" class="btn btn-outline-dark"
-            role="button">Plan Your Event</a>
+        <a
+            href="contact.html"
+            class="btn btn-outline-dark"
+            role="button"
+        >Plan Your Event</a>
     </div>
 
     <div class="container">
@@ -301,8 +304,8 @@
                     class="lightbox"
                 >
                     <img
-                        src="https://s3.us-east-2.amazonaws.com/hindquarter.project/asparagus-sunset-960x720.jpg"
-                        class="img-fluid asparagus-img"
+                        data-src="https://s3.us-east-2.amazonaws.com/hindquarter.project/asparagus-sunset-960x720.jpg"
+                        class="img-fluid asparagus-img lazy-loaded"
                         alt="Asparagus on flat top"
                     >
                 </a>
@@ -314,8 +317,8 @@
                     class="lightbox"
                 >
                     <img
-                        src="https://s3.us-east-2.amazonaws.com/hindquarter.project/luke-flat-top-960x720.jpg"
-                        class="img-fluid luke-flat-top-img"
+                        data-src="https://s3.us-east-2.amazonaws.com/hindquarter.project/luke-flat-top-960x720.jpg"
+                        class="img-fluid luke-flat-top-img lazy-loaded"
                         alt="Luke flat top"
                     >
                 </a>
@@ -327,8 +330,8 @@
                     class="lightbox"
                 >
                     <img
-                        src="https://s3.us-east-2.amazonaws.com/hindquarter.project/infiernillo-960x720.jpg"
-                        class="img-fluid infiernillo-img"
+                        data-src="https://s3.us-east-2.amazonaws.com/hindquarter.project/infiernillo-960x720.jpg"
+                        class="img-fluid infiernillo-img lazy-loaded"
                         alt="Infiernillo"
                     >
                 </a>
@@ -340,8 +343,8 @@
                     class="lightbox"
                 >
                     <img
-                        src="https://s3.us-east-2.amazonaws.com/hindquarter.project/salt-baked-bass-960x491.jpg"
-                        class="img-fluid bass-img"
+                        data-src="https://s3.us-east-2.amazonaws.com/hindquarter.project/salt-baked-bass-960x491.jpg"
+                        class="img-fluid bass-img lazy-loaded"
                         alt="Salt baked striped bass"
                     >
                 </a>
@@ -355,8 +358,8 @@
                     class="lightbox"
                 >
                     <img
-                        src="https://s3.us-east-2.amazonaws.com/hindquarter.project/vertical-salad-sunset-720x960.jpg"
-                        class="img-fluid vertical-salad-img lozad"
+                        data-src="https://s3.us-east-2.amazonaws.com/hindquarter.project/vertical-salad-sunset-720x960.jpg"
+                        class="img-fluid vertical-salad-img lozad lazy-loaded"
                         alt="Salads and sunset"
                     >
                 </a>
@@ -369,8 +372,8 @@
                         class="lightbox"
                     >
                         <img
-                            src="https://s3.us-east-2.amazonaws.com/hindquarter.project/chalkboard-menu-720x960.jpg"
-                            class="img-fluid chalkboard-img lozad"
+                            data-src="https://s3.us-east-2.amazonaws.com/hindquarter.project/chalkboard-menu-720x960.jpg"
+                            class="img-fluid chalkboard-img lozad lazy-loaded"
                             alt="chalkboard menu"
                         >
                     </a>
@@ -501,6 +504,16 @@
     <script
         type="text/javascript"
         src="js/customSlick.js"
+    ></script>
+
+    <script
+        type="text/javascript"
+        src="js/lazyLoad.js"
+    ></script>
+
+    <script
+        type="text/javascript"
+        src="js/jquery.lazyloadxt.bootstrap.js"
     ></script>
 </body>
 </html>

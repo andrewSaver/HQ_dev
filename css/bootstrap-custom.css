@@ -8826,6 +8826,7 @@ a.text-dark:focus, a.text-dark:hover {
     font-weight: 200;
     color: rgb(34, 33, 33);
     padding: 1.5em;
+    margin-bottom: 0.5rem;
   }
 
   
@@ -8996,6 +8997,10 @@ a.text-dark:focus, a.text-dark:hover {
   margin: 4rem;
 }
 
+.index_top_contact_button {
+  margin-bottom: 4rem;
+}
+
 .menu_gallery {
   margin-top: 4rem;
 }
@@ -9019,8 +9024,31 @@ a.text-dark:focus, a.text-dark:hover {
   margin-bottom: 3rem;
 }
 
+.HQ_carousel {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
 
+.HQ_carousel.slick-initialized {
+  visibility: visible;
+  opacity: 1;
+}
 
+.HQ_carousel .your-item {
+  display: none;
+}
+
+.HQ_carousel .your-item:first-child {
+  display: block;
+  visibility: hidden;
+}
+
+.HQ_carousel.slick-initialized .your-item {
+  display: block;
+  visibility: visible!important;
+}
 
 
 

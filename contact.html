@@ -23,11 +23,6 @@
     ></link>
 
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
-    ></link>
-
-    <link
         href="https://cdn.jsdelivr.net/gh/atatanasov/gijgo@1.7.3/dist/combined/css/gijgo.min.css"
         rel="stylesheet"
         type="text/css"
@@ -212,59 +207,109 @@
         </p>
     </div>
 
-    <form id="needs-validation" novalidate method="POST" action="http://formspree.io/andysaver@gmail.com">
+    <form
+        id="needs-validation"
+        novalidate="novalidate"
+        method="POST"
+        action="http://formspree.io/andysaver@gmail.com"
+    >
         <div class="form-row">
             <div class="col-md-4 mb-3">
                 <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" name="First name:"
-                    placeholder="First name" required>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    name="First name:"
+                    placeholder="First name"
+                    required="required"
+                ></input>
             </div>
+
             <div class="col-md-4 mb-3">
                 <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" name="Last name:"
-                    placeholder="Last name" required>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    name="Last name:"
+                    placeholder="Last name"
+                    required="required"
+                ></input>
             </div>
+
             <div class="form-row">
                 <div class="col-md-4 mb-3">
                     <label for="email">Email</label>
-                    <input type="email" name="email:" class="form-control" id="email" placeholder="Your email address" required>
+
+                    <input
+                        type="email"
+                        name="email:"
+                        class="form-control"
+                        id="email"
+                        placeholder="Your email address"
+                        required="required"
+                    ></input>
+
                     <div class="invalid-feedback">
                         Please provide a valid email address.
                     </div>
                 </div>
             </div>
-            
         </div>
+
         <div class="form-row">
             <div class="col-md-6 mb-3">
                 <label for="city">City</label>
-                <input type="text" class="form-control" id="city" name="City:"
-                    placeholder="City" required>
-                <div class="invalid-feedback">
-                    Please provide a valid city.
-                </div>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    id="city"
+                    name="City:"
+                    placeholder="City"
+                    required="required"
+                ></input>
+
+                <div class="invalid-feedback">Please provide a valid city.</div>
             </div>
+
             <div class="col-md-3 mb-3">
                 <label for="validationCustom04">State</label>
-                <input type="text" class="form-control" id="validationCustom04"
-                    placeholder="State" required>
-                <div class="invalid-feedback">
-                    Please provide a valid state.
-                </div>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom04"
+                    placeholder="State"
+                    required="required"
+                ></input>
+
+                <div class="invalid-feedback">Please provide a valid state.</div>
             </div>
+
             <div class="col-md-3 mb-3">
                 <label for="validationCustom05">Zip</label>
-                <input type="text" class="form-control" id="validationCustom05"
-                    placeholder="Zip" required>
-                <div class="invalid-feedback">
-                    Please provide a valid zip.
-                </div>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom05"
+                    placeholder="Zip"
+                    required="required"
+                ></input>
+
+                <div class="invalid-feedback">Please provide a valid zip.</div>
             </div>
         </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
+
+        <button
+            class="btn btn-primary"
+            type="submit"
+        >Submit form</button>
     </form>
-        
-        
 
     <footer class="footer-info">
         <div class="container">
@@ -347,16 +392,17 @@
         crossorigin="anonymous"
     ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"
+    ></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-    <script src="../js/lightbox.js"></script>
+        crossorigin="anonymous"
+    ></script>
 
     <script
         src="https://cdn.jsdelivr.net/gh/atatanasov/gijgo@1.7.3/dist/combined/js/gijgo.min.js"
@@ -365,13 +411,17 @@
 
     <script
         type="text/javascript"
-        script="script"
-        src="../js/scripts.js"
+        src="js/scripts.js"
     ></script>
 
     <script
         type="text/javascript"
-        src="../slick/slick.min.js"
+        src="js/datepicker.js"
+    ></script>
+
+    <script
+        type="text/javascript"
+        src="js/validation.js"
     ></script>
 </body>
 </html>

@@ -8944,6 +8944,8 @@ a.text-dark:focus, a.text-dark:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
 }
 
 .process_banner h1 {
@@ -8977,6 +8979,18 @@ a.text-dark:focus, a.text-dark:hover {
   background-position: center;
   background-size: cover;
   margin-bottom: 4rem;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .menus_banner h1 {
@@ -9048,19 +9062,6 @@ a.text-dark:focus, a.text-dark:hover {
 .HQ_carousel.slick-initialized .your-item {
   display: block;
   visibility: visible!important;
-}
-
-.lazy-hidden {
-  opacity: 0;
-}
-
-.lazy-loaded {
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -ms-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s;
-  opacity: 1;
 }
 
 

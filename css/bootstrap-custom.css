@@ -9025,6 +9025,8 @@ a.text-dark:focus, a.text-dark:hover {
   background-position: center;
   background-size: cover;
   margin-bottom: 4rem;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
 }
 
 .smoker_banner h1 {

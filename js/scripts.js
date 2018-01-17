@@ -5,7 +5,7 @@ document.getElementById('header').onclick = function () {
 }
 
 
-
+$('figure-caption').addClass('animated fadeInUp');
 
 
 

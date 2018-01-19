@@ -16,7 +16,8 @@ $(document).ready(function () {
                     arrows: false,
                     autoplay: false,
                     fade: false,
-                    swipe: true
+                    swipe: true,
+                    speed: 300
                 }
             }],
     });

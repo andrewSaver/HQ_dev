@@ -9095,6 +9095,19 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .menus_banner,
+  .process_banner,
+  .smoker_banner {
+    max-height: 20rem;
+  }
+  .menus_banner h1,
+  .process_banner h1,
+  .smoker_banner h1 {
+    padding: 1.5em 0;
+  }
+}
+
 
 
 

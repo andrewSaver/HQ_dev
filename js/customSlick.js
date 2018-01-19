@@ -7,7 +7,7 @@ $(document).ready(function () {
         arrows: true,
         dots: true,
         fade: true,
-        speed: 1000,
+        speed: 500,
         cssEase: 'linear',
         responsive: [
             {

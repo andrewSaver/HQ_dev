@@ -8952,7 +8952,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
   font-size: 3rem;
-  padding: 10rem 0;
+  padding: 12rem 0;
 }
 
 .process_text {
@@ -8997,7 +8997,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
   font-size: 3rem;
-  padding: 10rem 0;
+  padding: 12rem 0;
 }
 
 
@@ -9033,7 +9033,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
   font-size: 3rem;
-  padding: 10rem 0;
+  padding: 12rem 0;
 }
 
 .blog-pagination {
@@ -9104,7 +9104,7 @@ a.text-dark:focus, a.text-dark:hover {
   .menus_banner h1,
   .process_banner h1,
   .smoker_banner h1 {
-    padding: 1em 0;
+    padding: 0.5em 0;
   }
 }
 

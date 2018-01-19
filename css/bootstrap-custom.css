@@ -9099,12 +9099,12 @@ a.text-dark:focus, a.text-dark:hover {
   .menus_banner,
   .process_banner,
   .smoker_banner {
-    max-height: 20rem;
+    max-height: 14rem;
   }
   .menus_banner h1,
   .process_banner h1,
   .smoker_banner h1 {
-    padding: 1.5em 0;
+    padding: 1em 0;
   }
 }
 

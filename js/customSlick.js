@@ -14,7 +14,9 @@ $(document).ready(function () {
                 breakpoint: 480,
                 settings: {
                     arrows: false,
-                    autoplay: false
+                    autoplay: false,
+                    fade: false,
+                    swipe: true
                 }
             }],
     });

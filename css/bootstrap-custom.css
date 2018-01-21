@@ -9093,6 +9093,8 @@ a.text-dark:focus, a.text-dark:hover {
   .slick-next:before {
     visibility: hidden;
   }
+
+  
 }
 
 @media screen and (max-width: 576px) {
@@ -9106,6 +9108,8 @@ a.text-dark:focus, a.text-dark:hover {
   .smoker_banner h1 {
     padding: 0.5em 0;
   }
+
+
 }
 
 

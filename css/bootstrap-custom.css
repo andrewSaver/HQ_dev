@@ -9066,41 +9066,21 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: visible!important;
 }
 
-#return-to-top {
+
+.back-to-top {
+  cursor: pointer;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  width: 50px;
-  height: 50px;
-  display: block;
-  text-decoration: none;
-  border-radius: 35px;
+  bottom: 1em;
+  right: 1em;
   display: none;
-  -webkit-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  opacity: 0.5;
 }
 
-#return-to-top i {
-  color: #fff;
-  margin: 0;
-  position: relative;
-  left: 16px;
-  top: 13px;
-  font-size: 19px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-#return-to-top:hover {
-  background: rgba(0, 0, 0, 0.9);
-}
-
-#return-to-top:hover i {
-  color: #fff;
-  top: 5px;
+.back-to-top:hover {
+  cursor: pointer;
+  position: fixed;
+  display: inline;
+  opacity: 1;
 }
 
 
@@ -9136,6 +9116,11 @@ a.text-dark:focus, a.text-dark:hover {
 
   .process_banner h1 {
     padding: 1em;
+  }
+
+  .back-to-top {
+    right: .5em;
+    opacity: .4;
   }
 }
 

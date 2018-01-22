@@ -9,21 +9,24 @@ document.getElementById('header').onclick = function () {
 $('figure-caption').addClass('animated fadeInUp');
 
 
-//Return-to-top function
+// Back-to-top function
 
-$(window).scroll(function () {
-    if ($(this).scrollTop() >= 300) {
-        $('#return-to-top').fadeIn(200);
-
-    } else {
-        $('#return-to-top').fadeOut(200);
-    }
-});
-
-$('#return-to-top').click(function () {
-    $('body, html').animate({
-        scrollTop: 0
-    }, 600); 
-});
-    
-
+(function ($) {
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 300) {
+                $('#back-to-top').fadeIn(200);
+            } else {
+                $('#back-to-top').fadeOut(200);
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').on('click touch', function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+    });
+})(jQuery);

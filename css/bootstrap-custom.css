@@ -9066,6 +9066,42 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: visible!important;
 }
 
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
 
 
 @media screen and (max-width: 414px) {
@@ -9086,6 +9122,21 @@ a.text-dark:focus, a.text-dark:hover {
   .lightbox {
     pointer-events: none;
   }
+
+  .menus_banner,
+  .process_banner,
+  .smoker_banner {
+    max-height: 16rem;
+  }
+
+  .menus_banner h1,
+  .smoker_banner h1 {
+    padding: 1.5em;
+  }
+
+  .process_banner h1 {
+    padding: 1em;
+  }
 }
 
 @media screen and (max-width: 615px) {
@@ -9094,10 +9145,10 @@ a.text-dark:focus, a.text-dark:hover {
     visibility: hidden;
   }
 
-  
+
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 415px) and (max-width: 576px) {
   .menus_banner,
   .process_banner,
   .smoker_banner {
@@ -9106,7 +9157,7 @@ a.text-dark:focus, a.text-dark:hover {
   .menus_banner h1,
   .process_banner h1,
   .smoker_banner h1 {
-    padding: 0.5em 0;
+    padding: 1.5em 0;
   }
 
 

@@ -8802,6 +8802,7 @@ a.text-dark:focus, a.text-dark:hover {
 .header {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  cursor: pointer;
 }
 
 .header h1 {
@@ -8836,28 +8837,8 @@ a.text-dark:focus, a.text-dark:hover {
   max-width: 680px;
 }
 
-.luke-flat-top-img {
-  padding: 1.8rem 0 0 0;
-}
-
-.chalkboard-img {
-  padding: 1.8rem 0;
-}
-
-.chalkboard-caption {
-  margin-top: 0.2em;
-}
-
-.infiernillo-img {
-  padding: 1.8rem 0;
-}
-
-.bass-img {
-  padding: 0 0 1.8rem 0;
-}
-
-.whole-pig-roll-img {
-  padding: 0 0 1.8rem 0;
+.caption-text {
+  margin-top: 0em;
 }
 
 .footer-info {
@@ -9067,7 +9048,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 
-.back-to-top {
+.back-to-top{
   background-color: rgb(170, 168, 168);
   padding: .5em 1em;
   border-radius: 5%;
@@ -9082,7 +9063,26 @@ a.text-dark:focus, a.text-dark:hover {
   right: 1em;
 }
 
-.back-to-top .fa-chevron-up {
+.back-to-top .fa-chevron-up{
+  font-size: 2em;
+  color: rgb(248, 242, 242);
+}
+
+.email-box {
+  background-color: rgb(170, 168, 168);
+  padding: .5em 1em;
+  border-radius: 5%;
+  cursor: pointer;
+  position: fixed;
+  right: 1em;
+  display: none;
+  opacity: 0.5;
+  z-index: 100;
+  bottom: 5em;
+  right: 1em;
+}
+
+.email-box .fa-envelope {
   font-size: 2em;
   color: rgb(248, 242, 242);
 }
@@ -9131,7 +9131,8 @@ a.text-dark:focus, a.text-dark:hover {
   .slick-next:before {
     visibility: hidden;
   }
-  .back-to-top {
+  .back-to-top,
+  .email-box {
     opacity: .8;
   }
 

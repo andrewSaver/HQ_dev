@@ -11,7 +11,7 @@ $('figure-caption').addClass('animated fadeInUp');
 
 // Back-to-top function
 
-(function ($) {
+
     $(document).ready(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 500) {
@@ -29,4 +29,15 @@ $('figure-caption').addClass('animated fadeInUp');
         });
         
     });
-})(jQuery);
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 500) {
+            $('#email-box').fadeIn(200);
+        } else {
+            $('#email-box').fadeOut(200);
+        }
+    });
+});
+
+

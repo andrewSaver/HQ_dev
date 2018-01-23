@@ -1,0 +1,20 @@
+/* Loading icon */
+
+#page {
+    display: none;
+}
+
+#loading {
+    content: "\f110";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: absolute;
+    font-size: 200px;
+    color: #221f1f;
+    top: 50%;
+    left: 50%;
+    margin:;
+    z-index: 100;
+}

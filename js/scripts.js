@@ -14,7 +14,7 @@ $('figure-caption').addClass('animated fadeInUp');
 
     $(document).ready(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 500) {
+            if ($(this).scrollTop() > 1100) {
                 $('#back-to-top').fadeIn(200);
             } else {
                 $('#back-to-top').fadeOut(200);

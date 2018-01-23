@@ -8955,7 +8955,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .menus_banner {
-  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/greens-potatoes-flat-top-dark-1080x540.jpg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x512.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -8972,6 +8972,10 @@ a.text-dark:focus, a.text-dark:hover {
 @keyframes fadein {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+.menus_banner a {
+  text-decoration: none;
 }
 
 .menus_banner h1 {
@@ -9132,6 +9136,9 @@ a.text-dark:focus, a.text-dark:hover {
     padding: 1em;
   }
 
+  .menus_banner {
+    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-540x270.jpg")
+  }
 
 }
 

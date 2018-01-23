@@ -9068,6 +9068,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 
 .back-to-top {
+  background-color: rgb(170, 168, 168);
+  padding: .5em 1em;
+  border-radius: 5%;
   cursor: pointer;
   position: fixed;
   bottom: 1em;
@@ -9075,14 +9078,15 @@ a.text-dark:focus, a.text-dark:hover {
   display: none;
   opacity: 0.5;
   z-index: 100;
+  bottom: 1em;
+  right: 1em;
 }
 
-.back-to-top:hover {
-  cursor: pointer;
-  position: fixed;
-  display: inline;
-  opacity: 1;
+.back-to-top .fa-chevron-up {
+  font-size: 2em;
+  color: rgb(248, 242, 242);
 }
+
 
 
 @media screen and (max-width: 414px) {
@@ -9119,16 +9123,16 @@ a.text-dark:focus, a.text-dark:hover {
     padding: 1em;
   }
 
-  .back-to-top {
-    right: .5em;
-    opacity: .4;
-  }
+
 }
 
 @media screen and (max-width: 615px) {
   .slick-prev:before,
   .slick-next:before {
     visibility: hidden;
+  }
+  .back-to-top {
+    opacity: .8;
   }
 
 

@@ -1,4 +1,8 @@
+// Wait for page to load
 
+$(window).on('load', function () {
+    $('#wait-for-load').fadeOut(200);
+});
 
 //Header link to index
 

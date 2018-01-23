@@ -9088,7 +9088,15 @@ a.text-dark:focus, a.text-dark:hover {
   color: rgb(248, 242, 242);
 }
 
-
+#wait-for-load {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 100;
+}
 
 @media screen and (max-width: 414px) {
   .process_text {

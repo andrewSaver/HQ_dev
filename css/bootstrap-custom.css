@@ -9133,8 +9133,9 @@ a.text-dark:focus, a.text-dark:hover {
   }
   .back-to-top,
   .email-box {
-    opacity: .6;
+    opacity: .5;
   }
+
 
 
 }

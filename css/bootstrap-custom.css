@@ -8813,7 +8813,7 @@ a.text-dark:focus, a.text-dark:hover {
   border-bottom: 2px solid black;
 }
 
-.index-subheader h5 {
+.index-subheader {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.7rem;
   font-weight: 200;
@@ -8964,11 +8964,14 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .menus_banner {
-  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x512.jpg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-large-1280x384.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 4rem;
+  height: 25rem;
+  width: auto;
+  margin-top: -2rem;
   -webkit-animation: fadein 2s;
           animation: fadein 2s;
 }
@@ -8983,15 +8986,22 @@ a.text-dark:focus, a.text-dark:hover {
   to {opacity: 1;}
 }
 
-.menus_banner a {
-  text-decoration: none;
-}
+
 
 .menus_banner h1 {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 3rem;
-  padding: 4rem 0;
+  font-size: 5rem;
+  font-weight: 500;
+  padding: 8rem 0;
+}
+
+.menus_banner h3 {
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding: 2.8em 0;
 }
 
 .menus_banner p {
@@ -9003,7 +9013,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 
 .menus_text p {
-  padding: 1.2em 4em;
+  padding: 0.5em 6em;
   font-size: 1.2rem;
 }
 
@@ -9078,7 +9088,7 @@ a.text-dark:focus, a.text-dark:hover {
   display: none;
   opacity: 0.5;
   z-index: 100;
-  bottom: 5em;
+  bottom: 1em;
   right: 1em;
 }
 
@@ -9102,7 +9112,7 @@ a.text-dark:focus, a.text-dark:hover {
   display: none;
   opacity: 0.5;
   z-index: 100;
-  bottom: 1em;
+  bottom: 6em;
   right: 1em;
 }
 
@@ -9125,7 +9135,7 @@ a.text-dark:focus, a.text-dark:hover {
   z-index: 100;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .process_text {
     padding: 1rem;
   }
@@ -9150,7 +9160,11 @@ a.text-dark:focus, a.text-dark:hover {
     max-height: 16rem;
   }
 
-  .menus_banner h1,
+  .menus_banner h1{
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    padding: 2.4em 0;
+  }
   .smoker_banner h1 {
     padding: 1.5em 0 1em 0;
   }
@@ -9168,27 +9182,37 @@ a.text-dark:focus, a.text-dark:hover {
     background-color: rgb(170, 168, 168);
   }
 
+  .email-box:hover,
+  .back-to-top:hover {
+    background-color: rgb(170, 168, 168);
+  }
+
 }
 
 
 
-@media screen and (max-width: 615px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .slick-prev:before,
   .slick-next:before {
     visibility: hidden;
   }
   .menus_banner h1,
   .menus_banner p {
-    padding: 0 0.2em;
-    font-size: 2em;
+    padding: 1.8em 0;
+    font-size: 2.5em;
   }
 
   .header h1 {
     font-size: 1.7em;
   }
+
+   .email-box:hover,
+   .back-to-top:hover {
+     background-color: rgb(170, 168, 168);
+   }
 }
 
-@media screen and (min-width: 415px) and (max-width: 576px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .menus_banner,
   .process_banner,
   .smoker_banner {
@@ -9200,13 +9224,22 @@ a.text-dark:focus, a.text-dark:hover {
   }
   .menus_banner h1,
   .menus_banner p {
-    padding: 0;
+    font-size: 3.3em;
+    padding: 1.2em 0;
   }
 
+  .email-box:hover,
+  .back-to-top:hover {
+    background-color: rgb(170, 168, 168);
+  }
 
 }
+/*
+@media screen and (min-width: 992px) and (max-width: 1999px) {
+  
+}
 
-
+*/
 
 
 

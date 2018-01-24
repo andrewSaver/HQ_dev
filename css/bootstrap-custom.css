@@ -8982,7 +8982,13 @@ a.text-dark:focus, a.text-dark:hover {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
   font-size: 3rem;
-  padding: 12rem 0;
+  padding: 4rem 0;
+}
+
+.menus_banner p {
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2em;
 }
 
 
@@ -9129,7 +9135,7 @@ a.text-dark:focus, a.text-dark:hover {
 
   .menus_banner h1,
   .smoker_banner h1 {
-    padding: 1.5em;
+    padding: 1.5em 0 1em 0;
   }
 
   .process_banner h1 {
@@ -9147,6 +9153,10 @@ a.text-dark:focus, a.text-dark:hover {
   .slick-next:before {
     visibility: hidden;
   }
+  .menus_banner h1,
+  .menus_banner p {
+    padding: 0 0.2em;
+  }
 }
 
 @media screen and (min-width: 415px) and (max-width: 576px) {
@@ -9155,10 +9165,13 @@ a.text-dark:focus, a.text-dark:hover {
   .smoker_banner {
     max-height: 14rem;
   }
-  .menus_banner h1,
   .process_banner h1,
   .smoker_banner h1 {
     padding: 1.5em 0;
+  }
+  .menus_banner h1,
+  .menus_banner p {
+    padding: 0;
   }
 
 

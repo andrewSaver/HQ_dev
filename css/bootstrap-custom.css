@@ -3885,7 +3885,7 @@ tbody.collapse.show {
       -webkit-box-direction: normal;
           flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
   list-style: none;
 }
 
@@ -8800,32 +8800,36 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .header {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: -0.5em;
   cursor: pointer;
 }
 
 .header h1 {
   font-family: 'Sancreek', cursive;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 100;
-  color: rgb(80, 73, 73)
+  color: rgb(80, 73, 73);
+  border-bottom: 2px solid black;
 }
 
-.header h4 {
+.index-subheader h5 {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 200;
-  color: rgb(82, 78, 78);
+  color: rgb(90, 85, 85);
+  border-top: 2px solid black;
+  margin-bottom: 0.6rem;
+  padding: 1em;
 }
 
 .lead {
   font-family: 'Noto Sans',
     sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5em;
-    font-weight: 200;
-    color: rgb(34, 33, 33);
+    font-weight: 100;
+    color: rgb(71, 69, 69);
     padding: 1.5em;
     margin-bottom: 0.5rem;
   }
@@ -8835,6 +8839,11 @@ a.text-dark:focus, a.text-dark:hover {
 #what-we-do-text {
   margin-top: 75px;
   max-width: 680px;
+}
+
+#what-we-do-text h3{
+  font-weight: 400;
+  color: rgb(75, 73, 73)
 }
 
 .caption-text {
@@ -9023,7 +9032,7 @@ a.text-dark:focus, a.text-dark:hover {
 .smoker_banner h1 {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 12rem 0;
 }
 
@@ -9073,6 +9082,10 @@ a.text-dark:focus, a.text-dark:hover {
   right: 1em;
 }
 
+.back-to-top:hover{
+  background-color: #000;
+}
+
 .back-to-top .fa-chevron-up{
   font-size: 1.5em;
   color: rgb(248, 242, 242);
@@ -9096,6 +9109,10 @@ a.text-dark:focus, a.text-dark:hover {
 .email-box .fa-envelope {
   font-size: 1.5em;
   color: rgb(248, 242, 242);
+}
+
+.email-box:hover {
+  background-color: #000;
 }
 
 #wait-for-load {
@@ -9142,11 +9159,18 @@ a.text-dark:focus, a.text-dark:hover {
     padding: 1em;
   }
 
-  .menus_banner {
-    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-540x270.jpg")
+  .header h1{
+    font-size: 1.7em;
+  }
+
+  .email-box:hover,
+  .back-to-top:hover {
+    background-color: rgb(170, 168, 168);
   }
 
 }
+
+
 
 @media screen and (max-width: 615px) {
   .slick-prev:before,
@@ -9156,6 +9180,11 @@ a.text-dark:focus, a.text-dark:hover {
   .menus_banner h1,
   .menus_banner p {
     padding: 0 0.2em;
+    font-size: 2em;
+  }
+
+  .header h1 {
+    font-size: 1.7em;
   }
 }
 

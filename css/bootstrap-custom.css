@@ -8813,13 +8813,12 @@ a.text-dark:focus, a.text-dark:hover {
   border-bottom: 2px solid black;
 }
 
-.index-subheader {
+.index-subheader h5{
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.7rem;
   font-weight: 200;
   color: rgb(90, 85, 85);
   border-top: 2px solid black;
-  margin-bottom: 0.6rem;
   padding: 1em;
 }
 
@@ -8968,7 +8967,7 @@ a.text-dark:focus, a.text-dark:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 4rem;
+  margin:;
   height: 25rem;
   width: auto;
   margin-top: -2rem;
@@ -9187,6 +9186,10 @@ a.text-dark:focus, a.text-dark:hover {
     background-color: rgb(170, 168, 168);
   }
 
+  .menus_banner {
+    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-960x288.jpg")
+  }
+
 }
 
 
@@ -9209,6 +9212,10 @@ a.text-dark:focus, a.text-dark:hover {
    .email-box:hover,
    .back-to-top:hover {
      background-color: rgb(170, 168, 168);
+   }
+
+   .menus_banner {
+     background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-960x288.jpg")
    }
 }
 

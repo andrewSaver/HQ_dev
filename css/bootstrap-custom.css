@@ -8967,9 +8967,8 @@ a.text-dark:focus, a.text-dark:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin:;
-  height: 25rem;
-  width: auto;
+  width: 100%;
+  height: auto;
   margin-top: -2rem;
   -webkit-animation: fadein 2s;
           animation: fadein 2s;
@@ -8990,9 +8989,9 @@ a.text-dark:focus, a.text-dark:hover {
 .menus_banner h1 {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 5rem;
-  font-weight: 500;
-  padding: 8rem 0;
+  font-size: 4rem;
+  font-weight: 400;
+  padding: 9rem 0;
 }
 
 .menus_banner h3 {
@@ -9009,15 +9008,26 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 1.2em;
 }
 
-
+.menus_text {
+  margin-top: 2em;
+  padding: 0 12rem;
+}
 
 .menus_text p {
-  padding: 0.5em 6em;
+  padding: 0.4rem;
   font-size: 1.2rem;
 }
 
-.menu_button {
-  margin: 4rem;
+.menu-button {
+  margin-top: 2rem;
+}
+
+.menu-modal {
+  margin-bottom: 4rem;
+}
+
+.menu-modal button {
+  margin: 1.5em;
 }
 
 .index_top_contact_button {

@@ -9267,7 +9267,7 @@ a.text-dark:focus, a.text-dark:hover {
   }
 
   .modal-body {
-    padding: 2rem 1rem;
+    padding: 2rem 0;
   }
 
   

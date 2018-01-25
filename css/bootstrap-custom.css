@@ -9266,6 +9266,10 @@ a.text-dark:focus, a.text-dark:hover {
     background-color: rgb(170, 168, 168);
   }
 
+  .modal-body {
+    padding: 2rem 1rem;
+  }
+
   
 
 }

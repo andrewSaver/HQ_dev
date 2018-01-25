@@ -8969,6 +8969,9 @@ a.text-dark:focus, a.text-dark:hover {
   background-size: cover;
   width: auto;
   height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: -2rem;
   -webkit-animation: fadein 2s;
           animation: fadein 2s;

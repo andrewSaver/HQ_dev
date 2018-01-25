@@ -8968,7 +8968,7 @@ a.text-dark:focus, a.text-dark:hover {
   background-position: center;
   background-size: cover;
   width: auto;
-  height: 55vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8992,8 +8992,8 @@ a.text-dark:focus, a.text-dark:hover {
 .menus_banner h1 {
   color: #ffffff;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 3rem;
+  font-weight: 300;
   padding-top: 3.5em;
   padding-bottom: 3.5em;
 }
@@ -9305,9 +9305,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 @media screen and (min-width: 992px) and (max-width: 1999px) {
 
-  .menus_banner h1 {
-    padding-top: 3em;
-  }
+ 
 }
 
 

@@ -9209,6 +9209,10 @@ a.text-dark:focus, a.text-dark:hover {
     background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-960x288.jpg")
   }
 
+  .modal-body {
+    padding: 2rem 0;
+  }
+
 }
 
 
@@ -9235,6 +9239,10 @@ a.text-dark:focus, a.text-dark:hover {
    .menus_banner {
      background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-960x288.jpg");
 
+   }
+
+   .modal-body {
+     padding: 2rem 0;
    }
 }
 

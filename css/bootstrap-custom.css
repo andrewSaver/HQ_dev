@@ -8833,11 +8833,12 @@ a.text-dark:focus, a.text-dark:hover {
     margin-bottom: 0.5rem;
   }
 
+ 
+
   
 
 #what-we-do-text {
-  margin-top: 75px;
-  max-width: 680px;
+  margin-top: 3rem;
 }
 
 #what-we-do-text h3{
@@ -8929,12 +8930,24 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .process_banner {
-  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/barn-reception-dark-1080x540.jpg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/lightbox.images/menus/bliss-ridge-process-banner-1000x750.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: auto;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -2rem;
   -webkit-animation: fadein 2s;
-          animation: fadein 2s;
+  animation: fadein 2s;
 }
 
 .process_banner h1 {
@@ -8942,6 +8955,16 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Noto Sans', sans-serif;
   font-size: 3rem;
   padding: 12rem 0;
+}
+
+.process_banner_caption p {
+  font-size: 1rem;
+  color: rgb(73, 73, 73);
+}
+
+.process_banner_caption a {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
 }
 
 .process_text {
@@ -8969,9 +8992,15 @@ a.text-dark:focus, a.text-dark:hover {
   background-size: cover;
   width: auto;
   height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: -2rem;
   -webkit-animation: fadein 2s;
           animation: fadein 2s;
@@ -9008,7 +9037,6 @@ a.text-dark:focus, a.text-dark:hover {
 
 .menus_text {
   margin-top: 2em;
-  padding: 0 6em;
 }
 
 .menus_text p {
@@ -9088,6 +9116,7 @@ a.text-dark:focus, a.text-dark:hover {
   display: block;
   visibility: visible!important;
 }
+
 
 
 .back-to-top{
@@ -9179,9 +9208,6 @@ a.text-dark:focus, a.text-dark:hover {
   .process_text p {
     padding: 1rem;
   }
-  .menus_text {
-    padding: 1rem;
-  }
 
   .menus_text p {
     padding: 1rem;
@@ -9262,7 +9288,11 @@ a.text-dark:focus, a.text-dark:hover {
 
    }
 
-   
+   .menus_text,
+   .process_text,
+   #what-we-do-text {
+     padding: 0 1rem;
+   }
 
    .menu-popup {
      padding: 2rem 0.5rem;
@@ -9291,7 +9321,11 @@ a.text-dark:focus, a.text-dark:hover {
     background-color: rgb(170, 168, 168);
   }
 
-  
+  .menus_text,
+  .process_text,
+  #what-we-do-text {
+    padding: 0 5em;
+  }
 
   .menu-popup {
     padding: 2rem 0.5rem;
@@ -9305,7 +9339,11 @@ a.text-dark:focus, a.text-dark:hover {
 
 @media screen and (min-width: 992px) and (max-width: 1999px) {
 
- 
+  .menus_text,
+  .process_text,
+  #what-we-do-text {
+    padding: 0 9em;
+  }
 }
 
 

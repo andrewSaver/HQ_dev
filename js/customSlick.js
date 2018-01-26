@@ -2,13 +2,14 @@
 
 $(document).ready(function () {
     $('.HQ_carousel').slick({
-        adaptiveHeight: true,
         autoplay: true,
+        autoplaySpeed: 3000,
         arrows: true,
         dots: true,
         fade: true,
         speed: 500,
         cssEase: 'linear',
+        respondTo: 'slider',
         responsive: [
             {
                 breakpoint: 480,

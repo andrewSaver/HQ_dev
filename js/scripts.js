@@ -8,7 +8,7 @@ $(window).on('load', function () {
 
 document.getElementById('header').onclick = function () {
     window.location = 'index.html';
-}
+};
 
 //Caption fade-in animate.css
 

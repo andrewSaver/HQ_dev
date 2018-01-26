@@ -8952,9 +8952,12 @@ a.text-dark:focus, a.text-dark:hover {
 
 .process_banner h1 {
   color: #ffffff;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans',
+  sans-serif;
   font-size: 3rem;
-  padding: 12rem 0;
+  font-weight: 300;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
 }
 
 .process_banner_caption p {

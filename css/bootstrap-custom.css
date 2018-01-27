@@ -8935,7 +8935,7 @@ a.text-dark:focus, a.text-dark:hover {
   background-position: center;
   background-size: cover;
   width: auto;
-  height: 60vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8989,12 +8989,12 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .menus_banner {
-  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-large-1280x384.jpg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x400-new.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: auto;
-  height: 60vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9198,9 +9198,12 @@ a.text-dark:focus, a.text-dark:hover {
 
 
 .modal-break {
-  border-top: 1px solid black;
-  padding-bottom: 2rem;
+  border-top: 3px solid black;
+  padding: 2rem 0;
 }
+
+
+
 
 
 
@@ -9252,7 +9255,7 @@ a.text-dark:focus, a.text-dark:hover {
   }
 
   .menus_banner {
-    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-960x288.jpg")
+    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x400-new.jpg")
   }
 
   
@@ -9287,7 +9290,7 @@ a.text-dark:focus, a.text-dark:hover {
    }
 
    .menus_banner {
-     background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-mobile-960x288.jpg");
+     background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x400-new.jpg");
 
    }
 

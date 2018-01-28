@@ -9042,8 +9042,11 @@ a.text-dark:focus, a.text-dark:hover {
   margin-top: 2em;
 }
 
-.menus_text p {
+.menus_text p,
+.process-text p {
   padding: 0.4rem;
+  font-size: 1.2rem;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.2rem;
 }
 
@@ -9076,11 +9079,22 @@ a.text-dark:focus, a.text-dark:hover {
 .smoker_banner {
   background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/smoker-background-960x540.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 4rem;
-  -webkit-animation: fadein 2s;
-          animation: fadein 2s;
+ background-position: center;
+ background-size: cover;
+ width: auto;
+ height: 70vh;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+ align-items: center;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
+ justify-content: center;
+ margin-top: -2rem;
+ -webkit-animation: fadein 2s;
+ animation: fadein 2s;
 }
 
 .smoker_banner h1 {
@@ -9229,6 +9243,8 @@ a.text-dark:focus, a.text-dark:hover {
     height: 45vh;
   }
 
+  
+
   .menus_banner h1{
     font-size: 2rem;
   }
@@ -9287,11 +9303,6 @@ a.text-dark:focus, a.text-dark:hover {
    .email-box:hover,
    .back-to-top:hover {
      background-color: rgb(170, 168, 168);
-   }
-
-   .menus_banner {
-     background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x400-new.jpg");
-
    }
 
    .menus_text,

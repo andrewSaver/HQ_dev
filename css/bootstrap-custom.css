@@ -9075,13 +9075,6 @@ a.text-dark:focus, a.text-dark:hover {
  animation: fadein 2s;
 }
 
-.smoker_banner h1 {
-  color: #ffffff;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 2.5rem;
-  padding: 12rem 0;
-}
-
 .blog-pagination {
   margin-bottom: 3rem;
 }

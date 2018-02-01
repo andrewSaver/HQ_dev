@@ -8932,8 +8932,10 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .submit-button {
-  margin-bottom: 6em;
+  margin: 3em;
 }
+
+
 
 .process_banner {
   background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/lightbox.images/menus/bliss-ridge-process-banner-1000x750.jpg");

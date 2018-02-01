@@ -8935,7 +8935,9 @@ a.text-dark:focus, a.text-dark:hover {
   margin: 3em;
 }
 
-
+.date-invalid {
+  z-index: 3;
+}
 
 .process_banner {
   background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/lightbox.images/menus/bliss-ridge-process-banner-1000x750.jpg");

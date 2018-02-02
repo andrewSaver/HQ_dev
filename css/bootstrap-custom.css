@@ -9247,9 +9247,7 @@ a.text-dark:focus, a.text-dark:hover {
     padding: 2rem 0;
   }
 
-  .datepicker input[readonly] {
-    background-color: white;
-  }  
+
 
 }
 
@@ -9281,6 +9279,7 @@ a.text-dark:focus, a.text-dark:hover {
      padding: 2rem 0.5rem;
    }
 
+  
    
 }
 
@@ -9310,13 +9309,14 @@ a.text-dark:focus, a.text-dark:hover {
   }
 
   
-
+   .datepicker input[readonly] {
+     background-color: white;
+   }
   
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1999px) {
-
 }
 
 

@@ -9247,8 +9247,9 @@ a.text-dark:focus, a.text-dark:hover {
     padding: 2rem 0;
   }
 
-  
-  
+  .datepicker input[readonly] {
+    background-color: white;
+  }  
 
 }
 

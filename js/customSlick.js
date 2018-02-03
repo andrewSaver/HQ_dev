@@ -10,6 +10,7 @@ $(document).ready(function () {
         speed: 500,
         cssEase: 'linear',
         respondTo: 'slider',
+        lazyLoad: 'ondemand',
         responsive: [
             {
                 breakpoint: 480,

@@ -206,11 +206,8 @@ return layzr;
 
   })));
 
-  const instance = Layzr()
-
-document.addEventListener('DOMContentLoaded', event => {
-  instance
-    .update()
-    .check()
-    .handlers(true);
+const instance = Layzr({
+  normal: 'data-normal'
 });
+
+

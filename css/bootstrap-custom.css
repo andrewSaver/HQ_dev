@@ -170,6 +170,8 @@
     color: rgb(73, 73, 73);
 }
 
+
+
 .menus_banner {
     background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x400-new.jpg");
     background-repeat: no-repeat;
@@ -374,12 +376,17 @@
     padding: 2rem 0;
 }
 
-.thank_you_text h1,
-.thank_you_text p {
+.thank_you_text h1 {
     font-size: 2.5rem;
-    font-weight: 100;
+    font-weight: 400;
     color: rgb(80, 73, 73);
-    border-bottom: 2px solid black;
+}
+
+.thank_you_text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(80, 73, 73);
+    padding: 1.5em;
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {

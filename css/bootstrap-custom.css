@@ -24,14 +24,16 @@
 #what_we_do_text,
 .menus_text,
 .process_text,
-.smoker_text {
+.smoker_text,
+.venues_text {
     padding: 3rem 12rem;
 }
 
 #what_we_do_text p,
 .menus_text p,
 .process_text p,
-.smoker_text p {
+.smoker_text p,
+.venues_text p {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5em;
@@ -151,7 +153,8 @@
 
 .process_banner h1,
 .menus_banner h1,
-.smoker_banner h1 {
+.smoker_banner h1,
+.venues_banner h1 {
     color: #ffffff;
     font-family: 'Noto Sans', sans-serif;
     font-size: 3rem;
@@ -165,7 +168,8 @@
     color: rgb(73, 73, 73);
 }
 
-.process_banner_caption a {
+.process_banner_caption a,
+.venues_banner_caption a {
     text-decoration: none;
     color: rgb(73, 73, 73);
 }
@@ -218,7 +222,8 @@
 .menus_text p,
 .process_text p,
 .smoker_text p,
-#what_we_do_text p {
+#what_we_do_text p,
+.venues_text p {
     padding: 0.4rem;
     font-size: 1.2rem;
     font-family: 'Noto Sans', sans-serif;
@@ -268,8 +273,30 @@
 
 .menus_banner,
 .process_banner,
-.smoker-gallery {
+.smoker_banner,
+.venues_banner {
     overflow-y: hidden;
+}
+
+.venues_banner {
+    background-image: url("/images/venues.images/venues-banner-1000x667.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: -2rem;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
 }
 
 .blog-pagination {
@@ -415,7 +442,9 @@
     .smoker_text,
     .smoker_text p,
     #what_we_do_text,
-    #what_we_do_text p {
+    #what_we_do_text p,
+    .venues_text,
+    .venues_text p {
         padding: 1rem;
     }
     .lightbox {
@@ -423,7 +452,8 @@
     }
     .menus_banner,
     .process_banner,
-    .smoker_banner {
+    .smoker_banner,
+    .venues_banner {
         height: 45vh;
     }
     .header h1 {
@@ -457,7 +487,8 @@
     .menus_text,
     .process_text,
     .smoker_text,
-    #what_we_do_text {
+    #what_we_do_text,
+    .venues_text {
         padding: 1rem 3rem;
     }
     .menu-popup {
@@ -468,13 +499,15 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .menus_banner,
     .process_banner,
-    .smoker_banner {
+    .smoker_banner,
+    .venues_banner {
         height: 55vh;
     }
     .menus_text,
     .process_text,
     .smoker_text,
-    #what_we_do_text {
+    #what_we_do_text,
+    .venues_text {
         padding: 1rem 3rem;
     }
     .email-box:hover,

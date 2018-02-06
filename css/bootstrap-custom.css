@@ -229,7 +229,8 @@
 .process_text p,
 .smoker_text p,
 #what_we_do_text p,
-.venues_text p {
+.venues_text p,
+.testimonials_text p {
     padding: 0.4rem;
     font-size: 1.2rem;
     font-family: 'Noto Sans', sans-serif;
@@ -280,7 +281,8 @@
 .menus_banner,
 .process_banner,
 .smoker_banner,
-.venues_banner {
+.venues_banner,
+.testimonials_banner {
     overflow-y: hidden;
 }
 
@@ -461,6 +463,15 @@
     padding: 1.5em;
 }
 
+.blockquote p,
+.blockquote-footer {
+    padding: 0 3rem;
+}
+
+.testimonial_top {
+    margin: 0 10rem;
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
     .menus_text,
     .menus_text p,
@@ -471,7 +482,9 @@
     #what_we_do_text,
     #what_we_do_text p,
     .venues_text,
-    .venues_text p {
+    .venues_text p,
+    .testimonials_text,
+    .testimonials_text p {
         padding: 1rem;
     }
     .lightbox {
@@ -480,7 +493,8 @@
     .menus_banner,
     .process_banner,
     .smoker_banner,
-    .venues_banner {
+    .venues_banner,
+    .menus_text {
         height: 45vh;
     }
     .header h1 {
@@ -515,7 +529,8 @@
     .process_text,
     .smoker_text,
     #what_we_do_text,
-    .venues_text {
+    .venues_text,
+    .testimonials_text {
         padding: 1rem 3rem;
     }
     .menu-popup {
@@ -527,14 +542,16 @@
     .menus_banner,
     .process_banner,
     .smoker_banner,
-    .venues_banner {
+    .venues_banner,
+    .testimonials_banner {
         height: 55vh;
     }
     .menus_text,
     .process_text,
     .smoker_text,
     #what_we_do_text,
-    .venues_text {
+    .venues_text,
+    .testimonials_text {
         padding: 1rem 3rem;
     }
     .email-box:hover,

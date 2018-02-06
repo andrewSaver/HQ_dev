@@ -287,7 +287,7 @@
 }
 
 .venues_banner {
-    background-image: url("/images/venues.images/venues-banner-1000x667.jpg");
+    background-image: url("../images/venues.images/venues-banner-1000x667.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -308,7 +308,7 @@
 }
 
     .testimonials_banner {
-    background-image: url("/images/testimonials.images/testimonials-banner.jpg");
+    background-image: url("../images/testimonials.images/testimonials-banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

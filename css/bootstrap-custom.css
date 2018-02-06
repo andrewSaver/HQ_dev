@@ -25,7 +25,8 @@
 .menus_text,
 .process_text,
 .smoker_text,
-.venues_text {
+.venues_text,
+.testimonials_text {
     padding: 3rem 12rem;
 }
 
@@ -33,12 +34,13 @@
 .menus_text p,
 .process_text p,
 .smoker_text p,
-.venues_text p {
+.venues_text p,
+.testimonials_text p {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5em;
     font-weight: 400;
-    color: rgb(95, 93, 93);
+    color: rgb(49, 48, 48);
     padding: 1.5em;
     margin-bottom: 0.5rem;
 }
@@ -154,7 +156,8 @@
 .process_banner h1,
 .menus_banner h1,
 .smoker_banner h1,
-.venues_banner h1 {
+.venues_banner h1,
+.testimonials_banner h1 {
     color: #ffffff;
     font-family: 'Noto Sans', sans-serif;
     font-size: 3rem;
@@ -163,13 +166,16 @@
     padding-bottom: 3.5em;
 }
 
-.process_banner_caption p {
+.process_banner_caption p,
+.venues_banner_caption p,
+.testimonials_banner_caption p {
     font-size: 1rem;
     color: rgb(73, 73, 73);
 }
 
 .process_banner_caption a,
-.venues_banner_caption a {
+.venues_banner_caption a,
+.testimonials_banner_caption a {
     text-decoration: none;
     color: rgb(73, 73, 73);
 }
@@ -299,6 +305,27 @@
     animation: fadein 2s;
 }
 
+    .testimonials_banner {
+    background-image: url("/images/testimonials.images/testimonials-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -2rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
 .blog-pagination {
     margin-bottom: 3rem;
 }
@@ -413,7 +440,7 @@
     padding-top: 4rem;
 }
 
-.bbq_divider {
+.section_divider {
     border-top: 2px solid black;
     padding: 2rem 0;
     margin-top: 2.5rem;

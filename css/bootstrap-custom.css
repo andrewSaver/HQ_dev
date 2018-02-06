@@ -509,6 +509,10 @@
     .menu-popup {
         padding: 2rem 0;
     }
+
+    .blockquote_testimonial p {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -533,6 +537,10 @@
     }
     .menu-popup {
         padding: 2rem 0.5rem;
+    }
+
+    .blockquote_testimonial p {
+        font-size: 1rem;
     }
 }
 
@@ -561,6 +569,10 @@
     }
     .datepicker input[readonly] {
         background-color: white;
+    }
+
+    .blockquote_testimonial p {
+        font-size: 1rem;
     }
 }
 

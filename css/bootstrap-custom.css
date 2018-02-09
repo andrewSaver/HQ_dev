@@ -133,7 +133,7 @@
 }
 
 .process_banner {
-    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/lightbox.images/menus/bliss-ridge-process-banner-1000x750.jpg");
+    background-image: url("../images/process.images/bliss-ridge-process-banner-1000x750.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,7 +183,7 @@
 
 
 .menus_banner {
-    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/menu.images/menus-banner-1024x400-new.jpg");
+    background-image: url("../images/menu.images/menus-banner-1024x400-new.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -258,7 +258,7 @@
 }
 
 .smoker_banner {
-    background-image: url("https://s3.us-east-2.amazonaws.com/hindquarter.project/smoker.images/smoker-banner-1024x576.jpg");
+    background-image: url("../images/smoker.images/smoker-banner-1024x576.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -356,6 +356,10 @@
 .HQ_carousel.slick-initialized .your-item {
     display: block;
     visibility: visible!important;
+}
+
+.HQ_carousel {
+    
 }
 
 .back-to-top {
@@ -466,6 +470,10 @@
 .blockquote p,
 .blockquote-footer {
     padding: 0 3rem;
+}
+
+.card {
+    width: 20rem;
 }
 
 

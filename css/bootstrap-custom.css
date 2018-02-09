@@ -499,8 +499,7 @@
     .menus_banner,
     .process_banner,
     .smoker_banner,
-    .venues_banner,
-    .menus_text {
+    .venues_banner,{
         height: 45vh;
     }
     .header h1 {

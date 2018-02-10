@@ -476,6 +476,10 @@
     width: 20rem;
 }
 
+a {
+    color: rgb(43, 60, 158);
+}
+
 
 
 @media screen and (min-width: 320px) and (max-width: 479px) {

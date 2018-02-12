@@ -473,7 +473,7 @@
 }
 
 .card {
-    width: 20rem;
+    width: 18rem;
 }
 
 a {
@@ -585,6 +585,10 @@ a {
 
     .blockquote_testimonial p {
         font-size: 1rem;
+    }
+
+    .card {
+        width: 14rem;
     }
 }
 

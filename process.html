@@ -12,7 +12,7 @@
 
     <link
         rel="icon"
-        href="images/favicon.png"
+        href="images/favicon.ico"
     ></link>
 
     <link
@@ -60,7 +60,11 @@
     >
         <div class="row">
             <div class="col-12 mr-auto">
-                <h1>THE HINDQUARTER</h1>
+                <h1>
+                    <span class="h1-title">THE HINDQUARTER</span>
+
+                    <span class="h1-subtitle">CATERING</span>
+                </h1>
             </div>
         </div>
     </div>
@@ -214,6 +218,13 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h1>Wedding and Event Planning</h1>
+
+                <a
+                    data-scroll="data-scroll"
+                    href="#process_text"
+                >
+                    <i class="fa fa-chevron-down fa-5x"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -226,7 +237,10 @@
         </p>
     </div>
 
-    <div class="container process_text text-center">
+    <div
+        class="container process_text text-center"
+        id="process_text"
+    >
         <div class="row">
             <div class="col-12">
                 <p>
@@ -877,6 +891,11 @@
 
     <script
         type="text/javascript"
+        src="js/smooth-scroll.polyfills.js"
+    ></script>
+
+    <script
+        type="text/javascript"
         script="script"
         src="js/scripts.js"
     ></script>
@@ -885,5 +904,11 @@
         type="text/javascript"
         src="js/jquery.waypoints.min.js"
     ></script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#process_text"]',{
+            speed: 600
+        });
+    </script>
 </body>
 </html>

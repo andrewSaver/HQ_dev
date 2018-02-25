@@ -138,7 +138,7 @@
     background-position: center;
     background-size: cover;
     width: auto;
-    height: 70vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -188,7 +188,7 @@
     background-position: center;
     background-size: cover;
     width: auto;
-    height: 70vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -263,7 +263,7 @@
     background-position: center;
     background-size: cover;
     width: auto;
-    height: 70vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -292,7 +292,7 @@
     background-position: center;
     background-size: cover;
     width: auto;
-    height: 70vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -313,7 +313,7 @@
     background-position: center;
     background-size: cover;
     width: auto;
-    height: 70vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -358,9 +358,6 @@
     visibility: visible!important;
 }
 
-.HQ_carousel {
-    
-}
 
 .back-to-top {
     background-color: rgb(170, 168, 168);
@@ -480,6 +477,23 @@ a {
     color: #007bff;
 }
 
+.h1-subtitle {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.fa-chevron-down {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.fa-chevron-down:hover {
+    opacity: 0.8;
+    color: rgb(219, 215, 215)
+}
+
+
+
 
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
@@ -525,6 +539,10 @@ a {
     .blockquote_testimonial p {
         font-size: 1rem;
     }
+
+    .fa-chevron-down {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -553,6 +571,10 @@ a {
 
     .blockquote_testimonial p {
         font-size: 1rem;
+    }
+
+    .fa-chevron-down {
+        margin-bottom: 4rem;
     }
 }
 

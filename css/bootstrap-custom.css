@@ -584,8 +584,13 @@ a {
     .smoker_banner,
     .venues_banner,
     .testimonials_banner {
-        height: 55vh;
+        height: 75vh;
     }
+
+    .fa-chevron-down {
+        margin-top: -4rem;
+    }
+
     .menus_text,
     .process_text,
     .smoker_text,
